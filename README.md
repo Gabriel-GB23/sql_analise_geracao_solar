@@ -1,0 +1,1 @@
+# sql_analise_geracao_solar
