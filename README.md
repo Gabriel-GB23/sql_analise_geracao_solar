@@ -6,7 +6,7 @@ Tecnologias Utilizadas: SQLite para processamento de dados e estruturação de q
 
 Principais Insights:
 
-Eficiência: A Usina Brumadinho apresentou o maior fator de geração médio, apesar de não ser a maior em capacidade instalada, enquanto a usina de Alphaville apresentou uma estabilidade maior ao longo dos meses, sem uma redução brusca nos períodos de inverno;
+Eficiência: A Usina Brumadinho apresentou o maior fator de geração médio, apesar de não ser a maior em capacidade instalada, enquanto a usina de Campos Altos apresentou uma estabilidade maior ao longo dos meses, sem uma redução brusca nos períodos de inverno;
 <img width="617" height="376" alt="image" src="https://github.com/user-attachments/assets/4b0e2679-83b2-4bb4-ae79-f576d0e336d1" />
 
 Manutenção: Com o script criado para análise dos dias de baixa geração (abaixo de 50% da média diária), conseguimos identificar quais dias tiveram uma geração fora do padrão, podendo ser um indicativo de falhas, ou então de tempo nublado.
