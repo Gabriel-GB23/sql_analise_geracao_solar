@@ -21,7 +21,7 @@ group by "Ano/Mes";
 
 create view Visao_Geral AS
 SELECT strftime('%Y/%m', data_geracao) "Ano/Mes",
-REPLACE(SUM(CASE WHEN i.usina_id = 1 THEN g.energia_kwh ELSE 0 END),'.',',') Geracao_Alphaville,
+REPLACE(SUM(CASE WHEN i.usina_id = 1 THEN g.energia_kwh ELSE 0 END),'.',',') Geracao_Alphaville,   -- Substituição dos pontos por vírgulas para facilitação após a exportação dos dados para CSV.
 REPLACE(SUM(CASE WHEN i.usina_id = 2 THEN g.energia_kwh ELSE 0 END),'.',',') Geracao_Brumadinho,
 REPLACE(SUM(CASE WHEN i.usina_id = 3 THEN g.energia_kwh ELSE 0 END),'.',',') Geracao_Campos_Altos
 from Geracao g
