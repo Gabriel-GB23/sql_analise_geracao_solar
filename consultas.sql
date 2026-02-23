@@ -66,6 +66,7 @@ SELECT ti."Ano/Mes", ti.num_serial_inversor, mi.Media_inversor_usina, ti.Geracao
 from Total_por_inversor ti
 join Inversores i on i.num_serial = ti.num_serial_inversor
 join Media_por_inversor mi on mi.id_da_usina = i.usina_id AND mi."Ano/Mes" = ti."Ano/Mes" -- Diagnóstico técnico detalhado que utiliza o desvio percentual em relação à média do site. Ajuda a identificar problemas localizados, como sujeira excessiva em 
+WHERE Desvio < 0
 order by Desvio;                                                                          -- um conjunto de placas específico ou degradação acelerada de componentes de um único inversor.
   
 -- Retorno Financeiro 
