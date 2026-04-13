@@ -16,10 +16,6 @@ Financeiro: O sistema gerou uma economia total estimada para cada uma das usinas
 
 Os dados foram obtidos através de uma plataforma de monitoramento online, porém, os nomes das usinas e os SNs dos inversores foram alterados por questões de segurança.
 
-Para replicar os resultados, basta executar os códigos na seguinte sequência:
-
-Create_Tables;
-Insert_Data;
-Consultas.
+Para replicar os resultados, basta importar o database dentro do SQLite online e executar as consultas desejadas.
 
 https://www.linkedin.com/in/gabriel-gomes-454406264/
